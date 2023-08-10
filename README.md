@@ -30,3 +30,7 @@
     <img src="Preview3.png" alt="Preivew" Width="auto" Height="auto">
   </a>
 </div>
+
+<h4 align="center">
+    Currently, you can only target OPFor and USMC (SAS Button does nothing)
+</h4>

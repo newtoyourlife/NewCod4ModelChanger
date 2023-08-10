@@ -3,6 +3,7 @@
   Cod 4 Model Changer
   <br>
 </h1>
+
   
 <div align="center">
   <a href="https://github.com/newtoyourlife/NewCod4ModelChanger/blob/master/Preview1.png">
@@ -11,18 +12,11 @@
 </div>
 
   
-<h2 align="center">
-  <br>
-  
-    You need cod4 mod tools: <a href="https://github.com/promod/CoD4-Mod-Tools/tree/master">https://github.com/promod/CoD4-Mod-Tools/tree/master</a>
-
+<h4 align="center">
+    You need cod4 mod tools: <a href="https://github.com/promod/CoD4-Mod-Tools/tree/master">Cod4 Mod Tools</a>
     Your mod needs to be uncompiled.
-
     Once you choose a model to replace and choose the target it will change the xmodel in the mod's folder and add the model you wish to replace in the mod.csv
-  <br>
-</h2>
-
-
+</h4>
   
 <div align="center">
   <a href="https://github.com/newtoyourlife/NewCod4ModelChanger/blob/master/Preview2.png">

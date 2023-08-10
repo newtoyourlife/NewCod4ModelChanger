@@ -1,14 +1,8 @@
-# NewCod4ModelChanger
-
-<!DOCTYPE html>
-<html>
-<head>
-  <style>
-    h2 {
-      font-size: 18px; /* Adjust the value to your desired font size */
-    }
-  </style>
-</head>
+<h1 align="center">
+  <br>
+  Cod 4 Model Changer
+  <br>
+</h1>
   
 <div align="center">
   <a href="https://github.com/newtoyourlife/NewCod4ModelChanger/blob/master/Preview1.png">
@@ -17,20 +11,18 @@
 </div>
 
   
-<body>
-  <h2 align="center">
-    <br>
-    GUI Tool for changing models in cod4.
-
+<h2 align="center">
+  <br>
+  
     You need cod4 mod tools: <a href="https://github.com/promod/CoD4-Mod-Tools/tree/master">https://github.com/promod/CoD4-Mod-Tools/tree/master</a>
 
     Your mod needs to be uncompiled.
 
     Once you choose a model to replace and choose the target it will change the xmodel in the mod's folder and add the model you wish to replace in the mod.csv
-    <br>
-  </h2>
-</body>
-</html>
+  <br>
+</h2>
+
+
   
 <div align="center">
   <a href="https://github.com/newtoyourlife/NewCod4ModelChanger/blob/master/Preview2.png">

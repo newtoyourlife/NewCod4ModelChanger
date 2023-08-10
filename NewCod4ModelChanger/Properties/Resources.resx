@@ -1,0 +1,349 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="body_mp_usmc_rifleman" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\models\body\body_mp_usmc_rifleman.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="head_mp_usmc_pasdgt_covered" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\models\head\head_mp_usmc_pasdgt_covered.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="body_mp_sas_urban_specops" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\models\body\body_mp_sas_urban_specops.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Paladin" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\models\body\Paladin.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="body_mp_usmc_sniper" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\models\body\body_mp_usmc_sniper.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="BigSmoke" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\models\body\BigSmoke.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Yuusha_2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\models\body\Yuusha_2.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="head_mp_opforce_justin" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\models\head\head_mp_opforce_justin.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="head_mp_usmc_tactical_baseball_cap" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\models\head\head_mp_usmc_tactical_baseball_cap.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="head_mp_opforce_headwrap" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\models\head\head_mp_opforce_headwrap.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Eo" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\models\body\Eo.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="head_mp_arab_regular_headwrap" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\models\head\head_mp_arab_regular_headwrap.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="body_mp_usmc_woodland_specops" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\models\body\body_mp_usmc_woodland_specops.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="DragonWarrior" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\models\body\DragonWarrior.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="body_mp_sas_urban_assault" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\models\body\body_mp_sas_urban_assault.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="BlackPanther" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\models\body\BlackPanther.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="body_mp_sas_urban_recon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\models\body\body_mp_sas_urban_recon.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="body_mp_opforce_sniper" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\models\body\body_mp_opforce_sniper.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="no_model1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\models\body\no_model.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="head_mp_arab_regular_sadiq" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\models\head\head_mp_arab_regular_sadiq.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="CSSBadassTerr" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\models\body\CSSBadassTerr.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="head_mp_usmc_nomex" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\models\head\head_mp_usmc_nomex.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="body_mp_sas_urban_support" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\models\body\body_mp_sas_urban_support.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Lion" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\models\body\Lion.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Yuusha" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\models\body\Yuusha.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="no_model" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\models\head\no_model.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="body_mp_usmc_woodland_sniper" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\models\body\body_mp_usmc_woodland_sniper.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="BlackWidow" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\models\body\BlackWidow.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="body_mp_opforce_sniper_urban" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\models\body\body_mp_opforce_sniper_urban.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="body_mp_usmc_woodland_assault" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\models\body\body_mp_usmc_woodland_assault.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="body_mp_arab_regular_cqb" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\models\body\body_mp_arab_regular_cqb.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="body_mp_opforce_cqb" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\models\body\body_mp_opforce_cqb.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="body_mp_usmc_cqb" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\models\body\body_mp_usmc_cqb.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="HellDemon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\models\body\HellDemon.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="head_mp_usmc_tactical_mich_stripes_nomex" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\models\head\head_mp_usmc_tactical_mich_stripes_nomex.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="head_mp_opforce_gasmask" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\models\head\head_mp_opforce_gasmask.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="head_mp_arab_regular_suren" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\models\head\head_mp_arab_regular_suren.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="body_mp_sas_urban_sniper" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\models\body\body_mp_sas_urban_sniper.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ArcticAvenger" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\models\body\ArcticAvenger.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="body_mp_opforce_assault" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\models\body\body_mp_opforce_assault.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Elysium" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\models\body\Elysium.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="head_mp_usmc_tactical_mich" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\models\head\head_mp_usmc_tactical_mich.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="CarlJohnson1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\models\body\CarlJohnson.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Batgirl" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\models\body\Batgirl.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="head_mp_opforce_ghillie" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\models\head\head_mp_opforce_ghillie.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="body_mp_usmc_woodland_support" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\models\body\body_mp_usmc_woodland_support.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="JohnCena" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\models\body\JohnCena.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="body_mp_usmc_recon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\models\body\body_mp_usmc_recon.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="tag_orgin1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\models\head\tag_orgin.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="body_mp_arab_regular_support" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\models\body\body_mp_arab_regular_support.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="body_mp_usmc_specops" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\models\body\body_mp_usmc_specops.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="head_mp_arab_regular_ski_mask" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\models\head\head_mp_arab_regular_ski_mask.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="MasterChief1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\models\body\MasterChief.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="JohnMarston" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\models\body\JohnMarston.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="MasterChief" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\models\body\MasterChief.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="head_mp_opforce_ski_mask" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\models\head\head_mp_opforce_ski_mask.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="head_mp_opforce_3hole_mask" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\models\head\head_mp_opforce_3hole_mask.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="body_mp_usmc_support" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\models\body\body_mp_usmc_support.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Gign" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\models\body\Gign.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Spiderman" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\models\body\Spiderman.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="head_mp_arab_regular_asad" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\models\head\head_mp_arab_regular_asad.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Sylvanas" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\models\body\Sylvanas.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="body_mp_arab_regular_engineer" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\models\body\body_mp_arab_regular_engineer.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="tag_orgin" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\models\head\tag_orgin.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="body_mp_usmc_assault" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\models\body\body_mp_usmc_assault.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="body_mp_arab_regular_sniper" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\models\body\body_mp_arab_regular_sniper.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Tourrette" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\models\body\Tourrette.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="head_mp_usmc_ghillie" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\models\head\head_mp_usmc_ghillie.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="body_mp_usmc_woodland_recon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\models\body\body_mp_usmc_woodland_recon.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="body_mp_opforce_support" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\models\body\body_mp_opforce_support.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="PoliceOfficer" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\models\body\PoliceOfficer.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="body_mp_arab_regular_assault" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\models\body\body_mp_arab_regular_assault.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Vaas" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\models\body\Vaas.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="head_mp_opforce_david" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\models\head\head_mp_opforce_david.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="head_mp_usmc_shaved_head" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\models\head\head_mp_usmc_shaved_head.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="JohnWick" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\models\body\JohnWick.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+</root>
